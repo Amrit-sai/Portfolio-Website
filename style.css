@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar */
+  .navbar-inverse {
+    background-color: #333;
+    border-color: #333;
+    margin-bottom: 0;
+  }
+  .navbar-inverse .navbar-brand {
+    color: #fff;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+  }
+  .navbar-inverse .navbar-nav > li > a:hover,
+  .navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #222;
+  }
+  
+  /* Banner */
+  .jumbotron {
+    background-image: url("images/wallpaperflare.com_wallpaper.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 200px 0;
+    text-align: center;
+  }
+  .jumbotron h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  .jumbotron p {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  #about p {
+    font-size: 18px;
+  }
+  #about img {
+    margin-top: 50px;
+    border-radius: 100px;
+  }
+  
+  /* Services Section */
+  #services {
+    padding: 50px 0;
+  }
+  #services h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  #services .thumbnail {
+    border: none;
+    padding: 0;
+    text-align: center;
+  }
+  #services .thumbnail img {
+    max-width: 100%;
+    height: auto;
+  }
+  #services .thumbnail h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  #services .thumbnail p {
+    font-size: 18px;
+  }
+  

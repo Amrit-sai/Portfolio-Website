@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">My Portfolio</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="jumbotron">
+      <h1>Welcome to my Portfolio</h1>
+      <p>Here you can find my projects and learn more about me.</p>
+      <a href="#portfolio" class="btn btn-primary btn-lg">View Portfolio</a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>About Me</h2>
+            <p>
+              Hi, I'm Amrit Sai Moharana and I'm a web developer with a strong
+              background in HTML, CSS, JavaScript, and Bootstrap. I have
+              experience building dynamic web applications using Node.js and
+              Express.js. Additionally, I have a certificate in MongoDB Node.js
+              Developer from MongoDB University, which has given me a solid
+              foundation in database management and server-side development. I'm
+              passionate about creating responsive and user-friendly web
+              interfaces that provide a great user experience. In my free time,
+              I enjoy exploring new technologies and experimenting with
+              different web development frameworks.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="images/profile-pic.jpeg"
+              class="img-responsive"
+              alt="Profile Picture"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="web-design.jpg" alt="Web Design" />
+              <div class="caption">
+                <h3>Web Design</h3>
+                <p>
+                  I can create a custom design for your website that meets your
+                  specific needs and goals.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="web-development.jpg" alt="Web Development" />
+              <div class="caption">
+                <h3>Web Development</h3>
+                <p>
+                  I can develop a responsive and user-friendly website using
+                  HTML, CSS, JavaScript, and Bootstrap.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="seo.jpg" alt="SEO" />
+              <div class="caption"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
